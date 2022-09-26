@@ -1,0 +1,23 @@
+<odoo>
+
+	<record model="ir.actions.act_window" id="action_list_usuario">
+	    <field name="name">Usuarios</field>
+	    <field name="res_model">usuario.gestiondirecciones</field>
+	    <field name="view_mode">tree,form</field>
+	</record>
+
+	<record model="ir.actions.act_window" id="action_list_control">
+	    <field name="name">Registros</field>
+	    <field name="res_model">control.gestiondirecciones</field>
+	    <field name="view_mode">tree,form</field>
+	</record>
+	
+	<menuitem id="menu_principal" name="Registro Direcciones :"/>
+	<menuitem id="menu_principal_registros" name="Registros" parent="menu_principal"/>
+	
+
+	<menuitem  id="menu_usuario" parent="menu_principal_registros" name="Registro de usuarios" action="action_list_usuario"/>
+  	<menuitem  id="menu_control" parent="menu_principal_registros" name="Registro de control" 
+  	action="action_list_control"/>
+  
+</odoo>
