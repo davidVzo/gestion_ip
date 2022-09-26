@@ -7,6 +7,10 @@ class usuario(models.Model):
     name = fields.Char(string="Cédula del usuario", required=True)
     nombre = fields.Text(string="Nombre")
     apellido = fields.Text(string="Apellido")
+    hostname = fields.Char(string="Hostname")
+    usuario = fields.Char(string="Usuario")
+    ext_telefonica = fields.Char(string="Extención telefónica")
+    
     """
     celular = fields.Char(string="Celular", size=9)
     n_colegiatura = fields.Char(string="Número de colegiatura")

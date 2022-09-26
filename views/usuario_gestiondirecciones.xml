@@ -8,11 +8,13 @@
 				<field name="apellido" />
 				<field name="nombre" />
 				<field name="name" />
+				<field name="usuario" />
+				<field name="hostname" />
+				<field name="ext_telefonica" />
 
 			</tree>
 		</field>
 	</record>
-
 	<record model="ir.ui.view" id="action_vista_usuario_form">
 		<field name="name">registro.usuario.form</field>
 		<field name="model">usuario.gestiondirecciones</field>
@@ -24,6 +26,13 @@
 							<field name="name" />
 							<field name="nombre" />
 							<field name="apellido" />
+
+						</group>
+						<group>
+							<field name="usuario" />
+							<field name="hostname" />
+							<field name="ext_telefonica" />
+
 						</group>
 					</group>
 
