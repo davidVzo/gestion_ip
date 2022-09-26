@@ -28,6 +28,7 @@
         'views/menusyacciones.xml',
         'views/control_gestiondirecciones.xml',
         'views/usuario_gestiondirecciones.xml',
+        'views/vlan_gestionvlan.xml',
     ],
   
 }
