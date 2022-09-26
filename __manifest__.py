@@ -29,6 +29,7 @@
         'views/control_gestiondirecciones.xml',
         'views/usuario_gestiondirecciones.xml',
         'views/vlan_gestionvlan.xml',
+        'views/ip_gestiondirecciones.xml',
     ],
   
 }

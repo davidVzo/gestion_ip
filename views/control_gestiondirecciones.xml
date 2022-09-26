@@ -7,7 +7,7 @@
 
 
 				<field name="cod_usuario" />
-				<field name="cod_vlan" />
+				<field name="cod_ip" />
 				<field name="observaciones" />
 
 
@@ -28,7 +28,7 @@
 						<group>
 
 							<field name="cod_usuario" />
-							<field name="cod_vlan" />
+							<field name="cod_ip" />
 
 						</group>
 						<group>

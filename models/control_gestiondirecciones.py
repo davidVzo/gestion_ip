@@ -6,7 +6,7 @@ class control(models.Model):
 	_description = 'Control de usuarios e ip'
 
 	cod_usuario = fields.Many2one('usuario.gestiondirecciones',string="Cédula del usuario",required=True)
-	cod_vlan = fields.Many2one('vlan.gestionvlan',string="Vlan",required=True)
+	cod_ip = fields.Many2one('ip.gestiondirecciones',string="Ip",required=True)
 	observaciones = fields.Text(string="Observaciones")
 
 	""""
