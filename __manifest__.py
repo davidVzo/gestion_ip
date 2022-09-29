@@ -30,6 +30,7 @@
         'views/usuario_gestiondirecciones.xml',
         'views/vlan_gestionvlan.xml',
         'views/ip_gestiondirecciones.xml',
+        'views/direccion_gestiondirecciones.xml',
     ],
   
 }

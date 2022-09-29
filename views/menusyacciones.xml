@@ -21,6 +21,11 @@
 		<field name="res_model">vlan.gestionvlan</field>
 		<field name="view_mode">tree,form</field>
 	</record>
+	<record model="ir.actions.act_window" id="action_list_direccion">
+		<field name="name">Direcciones</field>
+		<field name="res_model">direccion.gestiondirecciones</field>
+		<field name="view_mode">tree,form</field>
+	</record>
 
 
 	<menuitem id="menu_principal" name="Registro Direcciones :"/>
@@ -30,7 +35,8 @@
 	<menuitem id="menu_usuario" parent="menu_principal_registros" name="Registro de usuarios" action="action_list_usuario"/>
 	<menuitem id="menu_control" parent="menu_principal_registros" name="Registro de control" action="action_list_control"/>
 	<menuitem id="menu_ip" parent="menu_principal_registros" name="Registro de ip" action="action_list_ip"/>
-
+	<menuitem id="menu_direccion" parent="menu_principal_registros" name="Registro de direcciones" action="action_list_direccion"/>
+	
 	<menuitem id="menu_vlan" parent="menu_principal_registros" name="Registro de vlan" action="action_list_vlan"/>
 	
 
