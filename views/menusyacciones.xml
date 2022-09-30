@@ -28,11 +28,13 @@
 	</record>
 
 
-	<menuitem id="menu_principal" name="Control de Direcciones Ip:"/>
+	<menuitem id="menu_principal" name="Asignación de Ip:"/>
 	<menuitem id="menu_principal_registros" name="Registros" parent="menu_principal"/>
+	<menuitem id="menu_principal_control" name="Control" parent="menu_principal"/>
 
 	<menuitem id="menu_usuario" parent="menu_principal_registros" name="Registro de usuarios" action="action_list_usuario"/>
-	<menuitem id="menu_control" parent="menu_principal_registros" name="Registro de control" action="action_list_control"/>
+	<menuitem id="menu_control" parent="menu_principal_control" name="Registro de asignación" action="action_list_control"/>
+	
 	<menuitem id="menu_ip" parent="menu_principal_registros" name="Registro de ip" action="action_list_ip"/>
 	<menuitem id="menu_direccion" parent="menu_principal_registros" name="Registro de direcciones" action="action_list_direccion"/>
 	

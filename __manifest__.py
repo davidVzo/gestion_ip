@@ -3,7 +3,7 @@
 'name': "gestiondirecciones",
 
     'summary': """
-        Módulo para la gestión de direcciones ip""",
+        Módulo para el control de asignación  de ips""",
 
     'description': """
         EL presente módulo 
