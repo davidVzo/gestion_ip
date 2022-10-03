@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-'name': "gestiondirecciones",
+    'name': "gestiondirecciones",
 
     'summary': """
         Módulo para el control de asignación  de ips""",
@@ -31,6 +31,9 @@
         'views/vlan_gestionvlan.xml',
         'views/ip_gestiondirecciones.xml',
         'views/direccion_gestiondirecciones.xml',
+        'views/switch_gestiondirecciones.xml',
+        'views/puerto_gestiondirecciones.xml',
+
     ],
-  
+
 }

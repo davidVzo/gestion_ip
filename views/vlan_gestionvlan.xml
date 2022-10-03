@@ -35,8 +35,10 @@
 
                 <sheet>
                     <group>
-                        <field name="cod_ip" readonly="1">
+                        <field name="cod_ip">
+                            
                             <tree>
+                                <field name="cod_vlan"/>    
                                 <field name="name"/>
                             </tree>
                         </field>

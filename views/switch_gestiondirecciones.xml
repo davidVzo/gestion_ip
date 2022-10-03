@@ -4,8 +4,6 @@
         <field name="model">switch.gestiondirecciones</field>
         <field name="arch" type="xml">
             <tree string="Tabla de switch">
-
-                <field name="" />
                 <field name="name" />
             </tree>
         </field>
