@@ -7,4 +7,6 @@ from . import ip_gestiondirecciones
 from . import direccion_gestiondirecciones
 from . import switch_gestiondirecciones
 from . import puerto_gestiondirecciones
+from . import dispositivo_gestiondirecciones
+
 

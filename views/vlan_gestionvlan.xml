@@ -32,11 +32,9 @@
                     </group>
 
                 </sheet>
-
                 <sheet>
                     <group>
                         <field name="cod_ip">
-                            
                             <tree>
                                 <field name="cod_vlan"/>    
                                 <field name="name"/>
@@ -44,7 +42,6 @@
                         </field>
                     </group>
                 </sheet>
-
             </form>
         </field>
     </record>

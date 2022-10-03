@@ -5,6 +5,10 @@
         <field name="arch" type="xml">
             <tree string="Tabla de switch">
                 <field name="name" />
+                <field name="modelo" />
+                <field name="piso" />
+                <field name="numero_puertos" />
+
             </tree>
         </field>
     </record>
@@ -17,12 +21,25 @@
                 <sheet>
                     <group colspan="2">
                         <group>
-                            
+
                             <field name="name" />
+                            <field name="modelo" />
                             <field name="piso" />
                             <field name="numero_puertos" />
+                            
                         </group>
 
+                    </group>
+                </sheet>
+
+                <sheet>
+                    <group>
+                        <field name="id_puerto">
+                            <tree>
+                                <field name="id_switch"/>
+                                <field name="name"/>
+                            </tree>
+                        </field>
                     </group>
                 </sheet>
             </form>

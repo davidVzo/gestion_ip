@@ -11,6 +11,12 @@
 		<field name="view_mode">tree,form</field>
 	</record>
 
+	<record model="ir.actions.act_window" id="action_list_dispositivo">
+		<field name="name">Registro de dispositivos</field>
+		<field name="res_model">dispositivo.gestiondirecciones</field>
+		<field name="view_mode">tree,form</field>
+	</record>
+
 	<record model="ir.actions.act_window" id="action_list_vlan">
 		<field name="name">Vlans</field>
 		<field name="res_model">vlan.gestionvlan</field>
@@ -34,10 +40,12 @@
 	</record>
 
 	<record model="ir.actions.act_window" id="action_list_control">
-		<field name="name">Registros</field>
+		<field name="name">Registro de asignaciones</field>
 		<field name="res_model">control.gestiondirecciones</field>
 		<field name="view_mode">tree,form</field>
 	</record>
+
+
 
 	<menuitem id="menu_principal" name="Asignación de Ip:"/>
 
@@ -47,6 +55,7 @@
 
 	<menuitem id="menu_usuario" parent="menu_principal_registros" name="Registro de Usuarios" action="action_list_usuario"/>
 	<menuitem id="menu_direccion" parent="menu_principal_registros" name="Registro de Direcciones" action="action_list_direccion"/>
+	<menuitem id="menu_dispositivo" parent="menu_principal_registros" name="Registro de Dispositivos" action="action_list_dispositivo"/>
 
 	<menuitem id="menu_control" parent="menu_principal_control" name="Registro de Asignación" action="action_list_control"/>
 
