@@ -4,10 +4,11 @@ class usuario(models.Model):
     _name = 'usuario.gestiondirecciones'
     _description = 'Usuarios'
 
-    name = fields.Char(string="Cédula del usuario", required=True)
+    name = fields.Char(string="Hostname", required=True)
     nombre = fields.Text(string="Nombre")
     apellido = fields.Text(string="Apellido")
-    hostname = fields.Char(string="Hostname")
+    cedula = fields.Char(string="Cédula")
+
     usuario = fields.Char(string="Usuario")
     ext_telefonica = fields.Char(string="Extención telefónica")
     
