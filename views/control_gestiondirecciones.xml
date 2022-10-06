@@ -3,16 +3,16 @@
 		<field name="name">registro.control.tree</field>
 		<field name="model">control.gestiondirecciones</field>
 		<field name="arch" type="xml">
+
 			<tree string="Tabla de control">
-
-
 				<field name="cod_usuario" />
 				<field name="cod_ip" />
 				<field name="observaciones" />
-
-
 			</tree>
+			
 		</field>
+
+
 	</record>
 
 	<record model="ir.ui.view" id="action_vista_control_form">
@@ -37,4 +37,5 @@
 			</form>
 		</field>
 	</record>
+
 </odoo>

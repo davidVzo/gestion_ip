@@ -4,5 +4,5 @@ class dispositivo(models.Model):
     _descripcion = 'Dispositivos'
 
     name = fields.Char(string="Nombre de Dispositivo" , required=True)
-    descripcion = fields.Char(string="Descripción")
+    description = fields.Char(string="Descripción")
     

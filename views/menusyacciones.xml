@@ -54,7 +54,7 @@
 	<menuitem id="menu_principal_control" name="Control" parent="menu_principal"/>
 
 	<menuitem id="menu_usuario" parent="menu_principal_registros" name="Registro de Usuarios" action="action_list_usuario"/>
-	<menuitem id="menu_direccion" parent="menu_principal_registros" name="Registro de Direcciones" action="action_list_direccion"/>
+	<menuitem id="menu_direccion" parent="menu_principal_registros" name="Registro de Direcciones Departamentales" action="action_list_direccion"/>
 	<menuitem id="menu_dispositivo" parent="menu_principal_registros" name="Registro de Dispositivos" action="action_list_dispositivo"/>
 
 	<menuitem id="menu_control" parent="menu_principal_control" name="Registro de Asignación" action="action_list_control"/>
