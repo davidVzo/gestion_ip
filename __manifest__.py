@@ -33,6 +33,7 @@
         'views/direccion_gestiondirecciones.xml',
         'views/switch_gestiondirecciones.xml',
         'views/puerto_gestiondirecciones.xml',
+        'views/reporte.xml',
 
     ],
 

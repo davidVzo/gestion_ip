@@ -1,0 +1,28 @@
+<odoo>
+    <data>
+        <report id="report_custom"
+        string="Reporte_Personalizado"
+        model="control.gestiondirecciones"
+        report_type="qweb-pdf"
+        name="custom_website.report_custom_template"
+        />
+        <template id="report_custom_template">
+            <t t-call="report.html_container">
+                <t t-call="report.external_layout" >
+                    <div class="header" >
+                     Mi cabecera
+
+                    </div>
+                    <div class="page" >
+                        <h1> Esto es un reporte </h1>
+
+                    </div>
+                    <div class="footer" >
+                        <small> Mi footer </small>
+
+                    </div>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>
